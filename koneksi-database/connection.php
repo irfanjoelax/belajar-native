@@ -6,14 +6,14 @@
  * 
  * umumnya harus tersedia 4 variabel utama yaitu (1) host, (2) username, (3) password, (4)database
  */
-$host = 'localhost';
+$host     = 'localhost';
 $username = 'root';
 $password = '';
 $database = 'belajar_native';
 
 /**
- * 1 Variabel untuk menampung proses koneksi ke Database
- * ===================================================
+ * Variabel untuk menampung proses koneksi ke Database
+ * =====================================================
  * 
  * - umumnya nama variabel berupa (conn, koneksi, connection, dll)
  * - gunakan function mysqli_connect() dengan parameter 4 variabel konfigurasi sebelumnya
